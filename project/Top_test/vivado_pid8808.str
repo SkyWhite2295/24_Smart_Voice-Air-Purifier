@@ -1,0 +1,274 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 8808
+
+Current time: 	6/2/24 12:53:35 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/CCDCH/Vivado/2015.2/tps/win64/jre
+
+User name: 	asus
+User directory: D:/CCDCH/project/Top_test
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/asus/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/asus/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	188 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 487 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 41 MB (+40001kb) [00:00:07]
+// [Engine Memory]: 416 MB (+285080kb) [00:00:07]
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\CCDCH\project\Top_test\Top_test.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/CCDCH/project/Top_test/Top_test.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 491 MB. GUI used memory: 30 MB. Current time: 6/2/24 12:53:37 PM CST
+// [Engine Memory]: 491 MB (+56563kb) [00:00:12]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 532 MB (+16684kb) [00:00:22]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+2276kb) [00:00:24]
+// [Engine Memory]: 580 MB (+23015kb) [00:00:25]
+// [GUI Memory]: 52 MB (+5043kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project D:/CCDCH/project/Top_test/Top_test.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CCDCH/project/ip_repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CCDCH/project/ip_repo_2'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/CCDCH/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 38 MB. Current time: 6/2/24 12:53:53 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Top_test; location: D:/CCDCH/project/Top_test; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 891.832 ; gain = 117.871 
+// [GUI Memory]: 58 MB (+3978kb) [00:00:30]
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+// [Engine Memory]: 610 MB (+1300kb) [00:00:38]
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace D:/CCDCH/project/Top_test/Top_test.sdk -hwspec D:/CCDCH/project/Top_test/Top_test.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/CCDCH/project/Top_test/Top_test.sdk -hwspec D:/CCDCH/project/Top_test/Top_test.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 61 MB (+63kb) [00:01:17]
+// [GUI Memory]: 65 MB (+328kb) [00:09:41]
+// [GUI Memory]: 68 MB (+46kb) [00:19:10]
+// [GUI Memory]: 72 MB (+608kb) [00:30:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 40 MB. Current time: 6/2/24 1:23:55 PM CST
+// [GUI Memory]: 76 MB (+18kb) [00:42:10]
+// [GUI Memory]: 80 MB (+315kb) [00:55:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 38 MB. Current time: 6/2/24 1:53:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 36 MB. Current time: 6/2/24 2:24:01 PM CST
+// [GUI Memory]: 84 MB (+138kb) [01:45:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 38 MB. Current time: 6/2/24 2:54:04 PM CST
+// Elapsed time: 8122 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (top_cons.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_cons.xdc]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_cons.xdc]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 89 MB (+1117kb) [02:16:05]
+// Elapsed time: 803 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (design_1_DHT11_IP_0_0.xci) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''design_1_DHT11_IP_0_0.xci' IP is part of a block design. Please open the block design<br>'design_1.bd' and customize the IP. (Re-customize IP)'
+// 'H' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci)]", 6); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v)]", 7); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v), DHT11_IP_v1_0_S00_AXI_inst - DHT11_IP_v1_0_S00_AXI (DHT11_IP_v1_0_S00_AXI.v), u1 - DHT11 (DHT11.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v), DHT11_IP_v1_0_S00_AXI_inst - DHT11_IP_v1_0_S00_AXI (DHT11_IP_v1_0_S00_AXI.v), u1 - DHT11 (DHT11.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DHT11.v", 'c'); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 367, 384); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("DHT11.v", 543, 303); // H:bj (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 43 MB. Current time: 6/2/24 3:24:07 PM CST
+selectButton("Fonts", "Fonts"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, U:br)
+// Elapsed time: 10 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+// Elapsed time: 19 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+selectButton("Fonts", "Fonts"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+// Elapsed time: 12 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+// Elapsed time: 53 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+// Elapsed time: 13 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectCodeEditor("DHT11.v", 746, 335); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 788, 335); // H:bj (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 94 MB (+292kb) [02:48:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 56 MB. Current time: 6/2/24 3:54:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 53 MB. Current time: 6/2/24 4:24:12 PM CST
+// Elapsed time: 3706 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), PM - design_1_PM_0_0 (design_1_PM_0_0.xci)]", 14); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), PM - design_1_PM_0_0 (design_1_PM_0_0.xci), design_1_PM_0_0 (design_1_PM_0_0.v)]", 15); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), PM - design_1_PM_0_0 (design_1_PM_0_0.xci), design_1_PM_0_0 (design_1_PM_0_0.v), inst - PM_v1_0 (PM_v1_0.v), PM_v1_0_S00_AXI_inst - PM_v1_0_S00_AXI (PM_v1_0_S00_AXI.v), p1 - pm (pm.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), PM - design_1_PM_0_0 (design_1_PM_0_0.xci), design_1_PM_0_0 (design_1_PM_0_0.v), inst - PM_v1_0 (PM_v1_0.v), PM_v1_0_S00_AXI_inst - PM_v1_0_S00_AXI (PM_v1_0_S00_AXI.v), p1 - pm (pm.v)]", 18, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("pm.v", 241, 85); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 259, 114); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 269, 138); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 331, 71); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 354, 80); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 388, 103); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 379, 140); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 413 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DHT11.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DHT11.v", 199, 193); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 209, 175); // H:bj (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 52 MB. Current time: 6/2/24 4:54:15 PM CST
+// Elapsed time: 1984 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pm.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("pm.v", 172, 77); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 154, 108); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("pm.v", 165, 138); // H:bj (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DHT11.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DHT11.v", 124, 175); // H:bj (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 50 MB. Current time: 6/2/24 5:24:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 51 MB. Current time: 6/2/24 5:54:21 PM CST
+// Elapsed time: 2888 seconds
+selectCodeEditor("DHT11.v", 214, 180); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 339, 181); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 270, 172); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 297, 180); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11.v", 354, 177); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 681 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pm.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("pm.v", 214, 143); // H:bj (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 100 MB (+1048kb) [05:16:06]
+// Elapsed time: 784 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v), DHT11_IP_v1_0_S00_AXI_inst - DHT11_IP_v1_0_S00_AXI (DHT11_IP_v1_0_S00_AXI.v)]", 9, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v), DHT11_IP_v1_0_S00_AXI_inst - DHT11_IP_v1_0_S00_AXI (DHT11_IP_v1_0_S00_AXI.v)]", 9, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i - design_1 (design_1.bd), design_1 (design_1.v), DHT11 - design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.xci), design_1_DHT11_IP_0_0 (design_1_DHT11_IP_0_0.v), inst - DHT11_IP_v1_0 (DHT11_IP_v1_0.v)]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DHT11_IP_v1_0_S00_AXI.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 522, 199); // H:bj (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DHT11_IP_v1_0_S00_AXI.v", 'c'); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 552, 219); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 164, 379); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 168, 396); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 169, 416); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DHT11_IP_v1_0_S00_AXI.v", 157, 444); // H:bj (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 612 MB. GUI used memory: 51 MB. Current time: 6/2/24 6:24:24 PM CST

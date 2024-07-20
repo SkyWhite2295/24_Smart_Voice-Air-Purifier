@@ -1,0 +1,313 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 18592
+
+Current time: 	6/9/24 3:32:53 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1707x1067
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	E:/vivado2015/Vivado/2015.2/tps/win64/jre
+
+User name: 	Lenovo
+User directory: C:/Users/Lenovo/Desktop/project3/Top_test
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	142 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 482 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Lenovo\Desktop\project3\Top_test\Top_test.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Lenovo/Desktop/project3/Top_test/Top_test.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 54 MB (+54364kb) [00:00:04]
+// [Engine Memory]: 465 MB (+336476kb) [00:00:04]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 517 MB. GUI used memory: 30 MB. Current time: 6/9/24 3:32:55 PM CST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 534 MB (+47129kb) [00:00:08]
+// [Engine Memory]: 583 MB (+23452kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/Lenovo/Desktop/project3/Top_test/Top_test.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Lenovo/Desktop/project2_2/Top_test' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lenovo/Desktop/project3/ip_repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lenovo/Desktop/project3/ip_repo_2'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado2015/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 624 MB (+12581kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 59 MB (+1840kb) [00:00:11]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Top_test; location: C:/Users/Lenovo/Desktop/project3/Top_test; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 875.492 ; gain = 149.676 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 696 MB (+43187kb) [00:00:13]
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// [GUI Memory]: 64 MB (+2608kb) [00:00:29]
+// TclEventType: RUN_RESET
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+// [GUI Memory]: 67 MB (+55kb) [00:00:29]
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 6/9/24 3:33:17 PM CST
+# Process ID: 18592
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See C:/Users/Lenovo/Desktop/project3/Top_test/vivado_pid18592.debug)
+*/
