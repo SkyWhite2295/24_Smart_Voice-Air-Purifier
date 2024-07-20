@@ -1,0 +1,25 @@
+15:02:16 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:191:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/forcast.o ./src/jq.o ./src/oled.o ./src/pm.o ./src/top.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73832	   4824	  23160	 101816	  18db8	top.elf
+'Finished building: top.elf.size'
+' '
+
+15:02:17 Build Finished (took 1s.345ms)
+

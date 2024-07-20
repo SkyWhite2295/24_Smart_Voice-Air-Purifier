@@ -1,0 +1,54 @@
+/*
+ * top.c
+ *
+ *  Created on: 2024Äê6ÔÂ1ÈÕ
+ *      Author: asus
+ */
+
+#include <stdio.h>
+#include "oled.h"
+#include "xil_io.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "tts.h"
+
+#include "asr.h"
+#include "dht.h"
+
+#include "sleep.h"
+#include "xil_types.h"
+#include "xgpio.h"
+#include "xgpiops.h"
+
+int main()
+{
+	Init_OLED();
+	Init_TTS();
+
+	static XGpio motor_Ptr;
+    int XStatus;
+
+    XStatus = XGpio_Initialize(&motor_Ptr,XPAR_AXI_GPIO_0_DEVICE_ID);
+    if(XST_SUCCESS != XStatus)
+        print("GPIO INIT FAILED\n\r");
+    XGpio_SetDataDirection(&motor_Ptr,1,0x00);
+
+    XGpio_DiscreteWrite(&motor_Ptr,1,0);
+//    usleep(1000);
+
+	while(1){
+		int status = Xil_In32(ASR_BASEADDR);
+		Handle_ASR(status);
+//		ShowWS();
+//		sleep(1);
+//		ShowPM();
+//		sleep(1);
+//		ShowJQ();
+//		sleep(1);
+		if(status==3){XGpio_DiscreteWrite(&motor_Ptr,1,1);}
+		sleep(1);
+	}
+
+	return 0;
+}
+

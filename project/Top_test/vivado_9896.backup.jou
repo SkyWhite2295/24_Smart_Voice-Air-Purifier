@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 12 20:35:00 2024
+# Process ID: 24488
+# Log file: D:/CCDCH/project/project4/Top_test/vivado.log
+# Journal file: D:/CCDCH/project/project4/Top_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CCDCH/project/project4/Top_test/Top_test.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_bd_design {D:/CCDCH/project/project4/Top_test/Top_test.srcs/sources_1/bd/design_1/design_1.bd}
+set_property name ASR [get_bd_cells ASR_rcv_0]
+save_bd_design
+close_bd_design [get_bd_designs design_1]
+update_ip_catalog -rebuild
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_sdk -workspace D:/CCDCH/project/project4/Top_test/Top_test.sdk -hwspec D:/CCDCH/project/project4/Top_test/Top_test.sdk/design_1_wrapper.hdf
